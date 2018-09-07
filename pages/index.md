@@ -1,32 +1,25 @@
 ---
 layout: home
-title: Door43
-tagline: unrestricted biblical content in every language
-header_title: Welcome to Door43!
+title: BibleTranslationTools
+tagline: Free Bible Translation Tools for the Global Church
+header_title: Welcome to BibleTranslationTools.org!
 permalink: /index.html
 ---
 
-Door43 is an online repository for open-licensed Biblical content in any language. Contributors from all over the world use this site to work together to create, translate, and distribute unrestricted discipleship resources.
+BibleTranslationTools.org is an online repository for open-licensed Biblical content in every language. Contributors from all over the world use this site to work together to create, translate, and distribute unrestricted discipleship resources.
 
 <div class="row">
 <div class="col-md-4 text-center">
-
-<h2>Translate</h2>
-<center><a href="https://unfoldingword.org/ts/" target="_blank"><img src="https://cdn.door43.org/assets/img/icons/icon-ts.png" alt="tS Icon"></a></center>
-
+    <h2>Translate</h2>
+    <center><a href="https://bibleineverylanguage.org/processes/" target="_blank"><img src="https://cdn.bibleineverylanguage.org/wp-content/uploads/2017/09/mast_diagram.png" alt="MAST Icon" style="height: 192px;" /></a></center>
 </div>
 <div class="col-md-4 text-center">
-
-<h2>Learn</h2>
-<center><a href="/u/Door43/en_ta/eccd2b1a6f/index.html"><img src="https://cdn.door43.org/assets/img/icons/icon-ta.png" alt="tA Icon"></a></center>
-
+    <h2>Resources</h2>
+    <center><a href="https://bibleineverylanguage.org/resources/"><img src="https://cdn.bibleineverylanguage.org/wp-content/uploads/2017/09/ulb.png" alt="ULB Icon" style="height: 192px;" /></a></center>
 </div>
 <div class="col-md-4 text-center">
-
-<h2>Browse</h2>
-<center><a href="/en/"><img src="https://cdn.door43.org/assets/img/icons/icon-d43.png" alt="Door43 Icon"></a></center>
-
+    <h2>Browse</h2>
+    <center><a href="https://bibleineverylanguage.org/"><img src="https://bibleineverylanguage.org/wp-content/uploads/2017/07/bible-red-ribbon-prepped.png" alt="BIEL" style="height: 192px;" /></a></center>
 </div>
 </div>
-
 <br />
