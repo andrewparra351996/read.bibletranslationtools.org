@@ -1,16 +1,16 @@
-master | [![Build Status](https://travis-ci.org/unfoldingWord-dev/door43.org.svg?branch=master)](https://travis-ci.org/unfoldingWord-dev/door43.org)
+<!-- master | [![Build Status](https://travis-ci.org/unfoldingWord-dev/door43.org.svg?branch=master)](https://travis-ci.org/unfoldingWord-dev/door43.org)
 
-develop | [![Build Status](https://travis-ci.org/unfoldingWord-dev/door43.org.svg?branch=develop)](https://travis-ci.org/unfoldingWord-dev/door43.org)
+develop | [![Build Status](https://travis-ci.org/unfoldingWord-dev/door43.org.svg?branch=develop)](https://travis-ci.org/unfoldingWord-dev/door43.org) -->
 
-# door43.org
+# read.BibleTranslationTools.org
 
-This is the source for door43.org website.  Note that it does not include the files that show up at door43.org/u/ as those are created by the [tX conversion app](https://github.com/unfoldingWord-dev/door43.org/wiki/tX-Development-Architecture).
+This is the source for the read.BibleTranslationTools.org website.
 
 ## Project Overview
 
-The http://door43.org site provides a front end view to all of the content in the Door43 ecosystem.  The source content on http://git.door43.org is converted into HTML and uploaded to the correct location on http://door43.org.
+The https://BibleInEveryLanguage.org site provides a front end view to all of the content in the WACS (Wycliffe Associates Content Server) ecosystem.  The source content on http://content.bibletranslationtools.org is converted into HTML and uploaded to the correct location on http://read.BibleTranslationTools.org
 
-<img src="https://cdn.door43.org/assets/img/dcs_tx_door43.jpg" alt="DCS to Door43 Conversion">
+<!-- <img src="https://cdn.door43.org/assets/img/dcs_tx_door43.jpg" alt="DCS to Door43 Conversion">
 
 Whenever a source repository is updated, it notifies (via webhook) the conversion app to convert the content and publish it online.  A repository like https://git.door43.org/Door43-Catalog/en_ulb will become a published web page at https://door43.org/u/Door43-Catalog/en_ulb/.
 
@@ -113,10 +113,11 @@ In order to synchronize the assets to the cdn S3 bucket you may now run `make as
 - to debug the tests do `./karma_start_debug.sh`
 - in Chrome Browser open to `http://localhost:9876/#` and then click on Debug
 - then open Chrome's "Developer Tools" (on current Chrome click on the three vertical dots in upper right then select More Tools/Developer Tools), set breakpoints (click Sources tab, js files are under base/test/spec) and then do refresh.
-- when done debugging, do `./karma_stop.sh` to stop karma running
+- when done debugging, do `./karma_stop.sh` to stop karma running -->
 
 #### Open source acknowledgements
 
+* http://Door43.org
 * http://jekyllrb.com
 * https://github.com/aucor/jekyll-plugins
 * https://github.com/jekyll/jekyll-sitemap
