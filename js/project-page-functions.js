@@ -323,18 +323,17 @@ function showTenMore(){
 function printAll(){
   _StatHat.push(["_trackCount", "5o8ZBSJ6yPfmZ28HhXZPaSBNYzRU", 1.0]);
   var id = myOwner+"/"+myRepoName+"/"+myCommitId;
-  var api_domain = "api.door43.org";
-  var api_prefix = "";
+  var api_url = "";
   switch(window.location.hostname){
-    case "dev.door43.org":
-      api_prefix = "dev-";
+    case "read-dev.bibletranslationtools.org":
+      api_url = "api-dev.bibletranslationtools.org";
       break;
-    case "test-door43.org.s3-website-us-west-2.amazonaws.com":
-      api_prefix = "test-";
+    case "read.bibletranslationtools.org":
+      api_url = "api.bibletranslationtools.org";
       break;
   }
   $.ajax({
-    url: "https://"+api_prefix+api_domain+"/tx/print?id="+id,
+    url: "https://"+api_url+"/tx/print?id="+id,
     success: function(data) {
       // response body is url to printed HTML
       if (!data.startsWith('http')) {
