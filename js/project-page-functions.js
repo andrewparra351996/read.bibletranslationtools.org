@@ -197,7 +197,7 @@ function showWarningModal(modal_body){
             modal_body +
             '      </div>'+
             '      <div class="modal-footer">'+
-            '        <a href="mailto:help@door43.org'+
+            '        <a href="mailto:helpdesk@wycliffeassociates.org'+
             '?subject='+encodeURIComponent('Build Warning: '+myOwner+'/'+myRepoName)+
             '&body='+encodeURIComponent("Type your question here\n\nSee the failure at "+window.location.href+"\n\n")+
             '" class="btn btn-secondary raised">Ask the Help Desk</a>'+
