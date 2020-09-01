@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    bible_template_dev:
+        image: bible_template_dev
+        build: .
+        volume:
+            - $WORKSPACE:/
