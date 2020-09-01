@@ -4,4 +4,4 @@ services:
         image: bible_template_dev
         build: .
         volumes:
-            - "mnt/c/Git\ Repo/read.bibletranslationtools.org:/"
+            - "/mnt/c/Git\ Repo/read.bibletranslationtools.org:/repo"
