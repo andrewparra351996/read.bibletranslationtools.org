@@ -4,4 +4,4 @@ services:
         image: bible_template_dev
         build: .
         volume:
-            - $WORKSPACE:/
+            - "mnt/c/Git\ Repo/read.bibletranslationtools.org:/"
