@@ -3,5 +3,5 @@ services:
     bible_template_dev:
         image: bible_template_dev
         build: .
-        volume:
+        volumes:
             - "mnt/c/Git\ Repo/read.bibletranslationtools.org:/"
